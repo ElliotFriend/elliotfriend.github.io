@@ -1,0 +1,9 @@
+---
+layout: post
+title: I'm Back!
+author: elliotfriend
+date: '2012-10-30 22:40:46 -0500'
+categories: personal
+---
+I know, it's been a while. But, I've restructured, refreshed, and reworked
+my blog. Should be awesome! Yay!
