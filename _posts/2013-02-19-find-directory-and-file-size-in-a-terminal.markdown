@@ -4,6 +4,8 @@ title: Find Directory and File Size in a Terminal
 author: elliotfriend
 date: '2013-02-19 16:40:32 -0600'
 categories: technology
+header-img: "img/post-bg-01.jpg"
+subtitle: This is something that should be in your sysadmin toolbelt!
 ---
 Here's a really handy command that I tend to forget exists.
 

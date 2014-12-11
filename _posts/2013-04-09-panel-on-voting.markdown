@@ -4,6 +4,8 @@ title: Panel on Voting
 author: elliotfriend
 date: '2013-04-09 20:43:23 -0500'
 categories: family
+header-img: "img/post-bg-01.jpg"
+subtitle: Vote or Die! That's convincing...
 ---
 A while back, I was fortunate enough to participate in a panel discussion
 on Third-Party voting, hosted by Dave Glover on 97.1 Talk radio in St.
