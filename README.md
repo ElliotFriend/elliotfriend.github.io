@@ -1,3 +1,5 @@
+<img src="https://travis-ci.org/ElliotFriend/elliotfriend.github.io.svg?branch=master" />
+
 #Clean Blog by Start Bootstrap - Jekyll Version
 
 The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://startbootstrap.com/).
