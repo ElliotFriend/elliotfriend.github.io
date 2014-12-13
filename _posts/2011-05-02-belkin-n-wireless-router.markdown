@@ -4,6 +4,7 @@ title: Belkin N+ Wireless Router
 author: elliotfriend
 date: '2011-05-02 23:10:29 -0500'
 categories: technology
+id: 4
 ---
 We moved!!! We moved across our apartment complex into a 2-bedroom unit!
 Now we have a library/office/guest-room. Not only did we upgrade our

@@ -1,33 +1,66 @@
 ---
 layout: page
 description: "Faith. Family. Technology."
-header-img: "img/home-bg.jpg"
+img-name: "home-bg.jpg"
 ---
-  <!-- START THE FEATURETTES -->
+  <div class="row">
+    <div class="col-md-4 col-lg-4">
+      <center>
+        <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+        <h2>Preaching</h2>
+        <p>I love preaching so much that I got a degree in it! See/hear some samples.</p>
+        <p><a class="btn btn-default vt-p" href="#" role="button">Check 'em out »</a></p>
+      </center>
+    </div>
+    <div class="col-md-4 col-lg-4">
+      <center>
+        <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+        <h2>Creative</h2>
+        <p>I love making videos, reading and writing, and pursuing other creative outlets.</p>
+        <p><a class="btn btn-default vt-p" href="#" role="button">Check 'em out »</a></p>
+      </center>
+    </div>
+    <div class="col-md-4 col-lg-4">
+      <center>
+        <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+        <h2>Technology</h2>
+        <p>I work with technology every day, and love learning more. Check out some of my projects.</p>
+        <p><a class="btn btn-default vt-p" href="#" role="button">View details »</a></p>
+      </center>
+    </div>
+  </div>
 
+
+  <!-- START THE FEATURETTES -->
+  <h1>Fresh from the blog...</h1>
   {% for post in site.posts limit:3 %}
   <hr class="featurette-divider">
 
   <div class="row featurette">
+    {% assign value = post.seq | modulo:2 %}
+    {% if value == 0 %}
     <div class="col-md-7">
       <h2 class="featurette-heading"><a href="{{ post.url }}">{{ post.title }} <br />
         <span class="text-muted">{{ post.subtitle }}</span></a></h2>
-      <p class="lead">{{ post.excerpt}}</p>
+      <p class="lead">{{ post.excerpt }}</p>
     </div>
     <div class="col-md-5">
-      <img class="featurette-image img-responsive" src="{{ post.header-img }}" />
+      <img class="featurette-image img-responsive" src="img/thumb/{{ post.img-name }}" />
     </div>
+    {% else %}
+    <div class="col-md-5">
+      <img class="featurette-image img-responsive" src="img/thumb/{{ post.img-name }}" />
+    </div>
+    <div class="col-md-7">
+      <h2 class="featurette-heading"><a href="{{ post.url }}">{{ post.title }} <br />
+        <span class="text-muted">{{ post.subtitle }}</span></a></h2>
+      <p class="lead">{{ post.excerpt }}</p>
+    </div>
+    {% endif %}
+    
   </div>
   {% endfor %}
 
   <hr class="featurette-divider">
 
   <!-- /END THE FEATURETTES -->
-
-
-  <!-- FOOTER -->
-  <footer>
-    <p class="pull-right"><a href="#" class="vt-p">Back to top</a></p>
-    <p>© 2014 Company, Inc. · <a href="#" class="vt-p">Privacy</a> · <a href="#" class="vt-p">Terms</a></p>
-  </footer>
-

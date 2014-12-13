@@ -4,6 +4,7 @@ title: Daddy, What was it Like ...
 author: elliotfriend
 date: '2011-12-04 15:18:22 -0600'
 categories: family
+id: 7
 ---
 If you're unfamiliar with who I am, or what's going on in my life, you
 may not know that my beautiful wife, Brandy, and I are expecting a daughter.

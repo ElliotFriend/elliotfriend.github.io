@@ -4,6 +4,7 @@ title: Search Wikipedia Ultra-Fast from a Terminal
 author: elliotfriend
 date: '2011-12-23 22:02:59 -0600'
 categories: technology
+id: 10
 ---
 __I love Linux!__ There's no two ways about it! For the past few years,
 I've become enamored with the open-source jewel that is Linux.

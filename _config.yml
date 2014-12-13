@@ -7,6 +7,7 @@ url: "http://elliot.voris.me"
 twitter_username: ElliotFriend
 github_username:  ElliotFriend
 facebook_username:  ElliotFriend
+youtube_username: ElliotFriend
 
 # Github settings
 repository: ElliotFriend/elliotfriend.github.io
@@ -18,3 +19,9 @@ highlighter: pygments
 permalink: /blog/:year/:month/:day/:title
 exclude: ["node_modules"]
 exclude: [vendor]
+
+# Collections settings
+collections:
+  videos:
+    output: true
+    permalink: /video/:title/

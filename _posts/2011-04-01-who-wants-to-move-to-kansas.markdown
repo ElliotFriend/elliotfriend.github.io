@@ -1,28 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: Who Wants to Move to Kansas?
-author:
-  display_name: elliotfriend
-  login: elliotfriend
-  email: elliot@voris.me
-  url: ''
-author_login: elliotfriend
-author_email: elliot@voris.me
-wordpress_id: 20
-wordpress_url: http://elliotfriend.wordpress.com/?p=20
+author: elliotfriend
 date: '2011-04-01 06:55:40 -0500'
-date_gmt: '2011-04-01 11:55:40 -0500'
-categories:
-- Technology
-tags:
-- advances
-- google
-- internet
-- kansas
-- technology
-comments: []
+categories: technology
+id: 3
 ---
 Anyone else excited about Google Fiber?
 

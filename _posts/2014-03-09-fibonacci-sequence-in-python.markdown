@@ -4,8 +4,9 @@ title: Fibonacci Sequence in Python
 author: elliotfriend
 date: '2014-03-09 00:55:38 -0600'
 categories: technology
-header-img: "img/golden-spiral.jpg"
+img-name: "golden-spiral.jpg"
 subtitle: Who knew it could be so easy and gratifying?
+seq: 15
 ---
 In case anyone ever wanted to know how to run the Fibonacci Sequence in
 Python, here's how I did it:
@@ -29,4 +30,4 @@ Update: [I put this up on Github](https://github.com/ElliotFriend/bin/blob/maste
 , and have made a couple changes since I
 initially wrote it.
 
-Photo credit [IPBrian](https://www.flickr.com/photos/ipbrian/6413629437)
+Photo by [IPBrian](https://flic.kr/p/aLKwzT)

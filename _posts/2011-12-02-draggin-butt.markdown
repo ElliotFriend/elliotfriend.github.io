@@ -4,6 +4,7 @@ title: Draggin' Butt
 author: elliotfriend
 date: '2011-12-02 18:41:45 -0600'
 categories: technology
+id: 6
 ---
 Have you ever had one of those days where you just felt like your feet
 were dragging, no matter what you were doing? I'm not talking about just

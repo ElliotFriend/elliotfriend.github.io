@@ -4,8 +4,9 @@ title: Find Directory and File Size in a Terminal
 author: elliotfriend
 date: '2013-02-19 16:40:32 -0600'
 categories: technology
-header-img: "img/post-bg-01.jpg"
-subtitle: This is something that should be in your sysadmin toolbelt!
+img-name: "linux-terminal.jpg"
+subtitle: This is something that should be in your toolbelt!
+seq: 13
 ---
 Here's a really handy command that I tend to forget exists.
 
@@ -25,3 +26,5 @@ directories in a given directory, use the asterisk to target them all:
 {% highlight bash %}
 du -hs /home/elliot/*
 {% endhighlight %}
+
+Photo by [Sandia Labs](https://flic.kr/p/7kedN8)

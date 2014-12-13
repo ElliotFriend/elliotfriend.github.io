@@ -4,6 +4,7 @@ title: Another Year, Another Round
 author: elliotfriend
 date: '2012-01-02 18:35:53 -0600'
 categories: personal
+id: 11
 ---
 Each year, we pick our opponent. Each year, we pick the size, weight,
 strength, and reach of our heavyweight contender. Each year, we decide

@@ -4,6 +4,7 @@ title: Investment for the Future?
 author: elliotfriend
 date: '2011-12-10 10:41:14 -0600'
 categories: family
+id: 8
 ---
 As I write this I'm sitting in a carX waiting room, using a free wi-fi
 connection (a nice 25mbps, by the way), sipping on some free coffee, and
