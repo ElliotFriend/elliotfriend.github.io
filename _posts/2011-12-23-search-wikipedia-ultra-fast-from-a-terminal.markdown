@@ -4,7 +4,8 @@ title: Search Wikipedia Ultra-Fast from a Terminal
 author: elliotfriend
 date: '2011-12-23 22:02:59 -0600'
 categories: technology
-id: 10
+img-name: "wiki-world.jpg"
+seq: 10
 ---
 __I love Linux!__ There's no two ways about it! For the past few years,
 I've become enamored with the open-source jewel that is Linux.
@@ -27,7 +28,7 @@ SEARCH="$*"
 dig +short txt ${SEARCH// /_}.wp.dg.cx
 {% endhighlight %}
 
-Combine that with an alias, like `alias wp='/home/elliot/scripts/digwp.sh'`,
+Combine that with an alias, like `alias wp='/home/elliot/bin/digwp.sh'`,
 and we get the following:
 
 {% highlight shell-session %}
@@ -40,3 +41,5 @@ although the CBC did not pick up the series.) http://a.vu/w:The_Tom_Green_Show"
 {% endhighlight %}
 
 I LOVE SHORTCUTS!!
+
+Photo by [J Aaron Farr](https://flic.kr/p/2Bp1mQ)

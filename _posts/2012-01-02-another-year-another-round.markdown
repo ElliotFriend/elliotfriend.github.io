@@ -4,7 +4,8 @@ title: Another Year, Another Round
 author: elliotfriend
 date: '2012-01-02 18:35:53 -0600'
 categories: personal
-id: 11
+img-name: "chess-boxing.jpg"
+seq: 11
 ---
 Each year, we pick our opponent. Each year, we pick the size, weight,
 strength, and reach of our heavyweight contender. Each year, we decide
@@ -53,3 +54,5 @@ financially or otherwise, to some community project frequently.
 __The key in my heavyweight bout__: Roll with the punches! If I'm too
 dogmatic with any of these, I'm bound to fail. Flexibility will allow me
 to fail, get up, dust myself off, and try again.
+
+Photo by [Alexandre Hervaud](https://flic.kr/p/4QwNWE)

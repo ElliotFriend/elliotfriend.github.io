@@ -4,7 +4,8 @@ title: Planning Pothole
 author: elliotfriend
 date: '2009-08-26 20:41:56 -0500'
 categories: family
-id: 1
+img-name: truck-pothole.jpg
+seq: 1
 ---
 I totally understand that little girls always fantasize about their dream 
 weddings.
@@ -43,3 +44,5 @@ all of which are extremely crucial for a healthy marriage.
 
 While it's going to be a tough road to travel, I'm glad to be on it with
 her.
+
+Photo by [Michael Gil](https://flic.kr/p/kjLQAd)

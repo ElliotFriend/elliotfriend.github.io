@@ -6,7 +6,7 @@ date: '2012-10-30 22:40:46 -0500'
 categories: personal
 img-name: "back-to-the-future.jpg"
 subtitle: I bet this won't be the last time I say that.
-id: 12
+seq: 12
 ---
 I know, it's been a while. But, I've restructured, refreshed, and reworked
 my blog. Should be awesome! Yay!

@@ -4,7 +4,8 @@ title: Belkin N+ Wireless Router
 author: elliotfriend
 date: '2011-05-02 23:10:29 -0500'
 categories: technology
-id: 4
+img-name: wireless-network-design.jpg
+seq: 4
 ---
 We moved!!! We moved across our apartment complex into a 2-bedroom unit!
 Now we have a library/office/guest-room. Not only did we upgrade our
@@ -50,3 +51,5 @@ DNS working.
 
 Now that it's all set up, I couldn't be happier with the purchase! This
 will definitely be a staple in our technological life for a long time.
+
+Photo by [securedgenet](https://flic.kr/p/8SPDvN)

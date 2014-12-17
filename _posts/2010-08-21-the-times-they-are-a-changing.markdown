@@ -1,10 +1,11 @@
 ---
 layout: post
-title: The Times, They are a-Changing...
+title: The Times, They are a-Changing&hellip;
 author: elliotfriend
 date: '2010-08-21 06:51:29 -0500'
 categories: technology family
-id: 2
+img-name: tangled-network.jpg
+seq: 2
 ---
 ### <del>BIG</del> GIANT <del>EXCITING</del> EXHILARATING NEWS!! ###
 
@@ -47,3 +48,5 @@ example this week of God's workings, and I know I'll only see more as time
 goes on.
 
 ### Praise be to God! ###
+
+Photo by [Bruno Girin](https://flic.kr/p/7sdJw)

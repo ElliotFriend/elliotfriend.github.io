@@ -4,7 +4,8 @@ title: Who Wants to Move to Kansas?
 author: elliotfriend
 date: '2011-04-01 06:55:40 -0500'
 categories: technology
-id: 3
+img-name: fiber-spools.jpg
+seq: 3
 ---
 Anyone else excited about Google Fiber?
 
@@ -41,3 +42,5 @@ to me. I will be as high up on that list as possible.
 Will you adopt Google Fiber if it becomes available to you? Is Google
 going to become (more of) an internet monopolizing machine? What benefits
 or disadvantages do you see from Google Fiber?Comments welcome!
+
+Photo by [woodleywonderworks](https://flic.kr/p/bmLox3)

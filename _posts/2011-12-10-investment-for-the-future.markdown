@@ -4,7 +4,8 @@ title: Investment for the Future?
 author: elliotfriend
 date: '2011-12-10 10:41:14 -0600'
 categories: family
-id: 8
+img-name: neighborhood-mechanic.jpg
+seq: 8
 ---
 As I write this I'm sitting in a carX waiting room, using a free wi-fi
 connection (a nice 25mbps, by the way), sipping on some free coffee, and
@@ -42,3 +43,5 @@ the ground! What that means for now, is keeping it happy and maintaining
 the parts as they fail. We're at 160,000 miles, and I'd like to keep it
 running for another 160,000+. Lord willing, maybe one day I'll give it
 to my daughter as her first car.
+
+Photo by [Kim Seng](https://flic.kr/p/e2DAtY)
