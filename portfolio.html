@@ -1,0 +1,74 @@
+---
+layout: page
+title: Portfolio
+description: I love working in technology, the arts, and a whole host of other stuff. See some of the work I've done.
+permalink: /portfolio/
+img-name: peace-love-linux.jpg
+---
+<div class="row">
+    <h1>Tech Projects</h1>
+    <p>Here are some of the projects that I work with on a regular basis. Take a look, and let me know what you think.</p>
+    <center>
+    <div class="col-md-6 col-lg-6 center">
+        <img class="img-circle" src="/img/projects/stlchristian-edu.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+        <h2>SLCC Website</h2>
+        <p>I was a big player in updating the SLCC website. I spear-headed the development and did a lot of the research and groundwork during the process. I helped an A+ team drive this one out of the park! <a href="https://stlchristian.edu">Visit the site and check it out today</a>!</p>
+    </div>
+    
+    <div class="col-md-6 col-lg-6 center">
+        <img class="img-circle" src="/img/projects/evergreen-ils.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+        <h2>Evergreen-ILS</h2>
+        <p>McCaslin Library has been a user of Evergreen software for quite some time. As IT Director, maintenance and upkeep of the software falls on me. I try to contribute back whenever I can (most of the time it's documentation). <a href="http://evergreen-ils.org">Learn more about Evergreen here</a>.</p>
+    </div>
+    
+    <div class="col-md-6 col-lg-6 center">
+        <img class="img-circle" src="/img/projects/ynab.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+        <h2>YNAB &amp; Linux</h2>
+        <p>It's not a "project," per se, but I've helped contribute a little bit here and there to the Linux install script for YNAB (which I love) on Linux (which I also love) using WINE. <a href="http://github.com/ElliotFriend/YNABLinuxInstall">Check out my fork here</a>!</p>
+    </div>
+    
+    <div class="col-md-6 col-lg-6 center">
+        <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+        <h2>Submerge</h2>
+        <p>SLCC is hosting a conference for High School students in September 2015. In preparation, I've been working on getting a website up and running for providing information, and enabling registration. <a href="https://submergestl.com">Check it out here</a>!</p>
+    </div>
+    </center>
+</div>
+
+<div class="row">
+<h1>Creative Projects</h1>
+<p>Here is some creative work that I've done. Check back regularly, because I'll be posting more stuff pretty regularly.</p>
+{% for post in site.posts %}
+{% if post.portfolio %}
+    <hr class="featurette-divider">
+    <div class="row featurette">
+        {% assign value = post.seq | modulo:2 %}
+        {% if value == 0 %}
+        <div class="post-preview">
+            <div class="col-md-7">
+              <h2 class="featurette-heading"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+              <h3 class="muted">{{ post.subtitle }}</h3>
+              <p class="lead">{{ post.excerpt }}</p>
+            </div>
+            <div class="col-md-5">
+              <img class="featurette-image img-responsive" src="/img/thumb/{{ post.img-name }}" />
+            </div>
+        {% else %}
+        <div class="post-preview">
+            <div class="col-md-5">
+              <img class="featurette-image img-responsive" src="/img/thumb/{{ post.img-name }}" />
+            </div>
+            <div class="col-md-7">
+              <h2 class="featurette-heading"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+              <h3 class="muted">{{ post.subtitle }}</h3>
+              <p class="lead">{{ post.excerpt }}</p>
+            </div>
+        {% endif %}
+        <p class="post-meta mu">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
+        </div>
+    </div>
+{% endif %}
+{% endfor %}
+</div>
+
+<p>Photo by <a href="https://flic.kr/p/g8fAp">Amy Rodrigo</a></p>

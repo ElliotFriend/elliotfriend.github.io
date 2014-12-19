@@ -4,7 +4,8 @@ title: Blast from the Past
 author: elliotfriend
 date: '2011-12-19 20:21:52 -0600'
 categories: technology
-img-name: "vintage-film.jpg"
+portfolio: true
+img-name: vintage-film.jpg
 seq: 9
 ---
 Here's a video that [@brockthoward](https://twitter.com/brockthoward)

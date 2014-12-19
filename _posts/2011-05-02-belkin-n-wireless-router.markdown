@@ -9,11 +9,12 @@ seq: 4
 ---
 We moved!!! We moved across our apartment complex into a 2-bedroom unit!
 Now we have a library/office/guest-room. Not only did we upgrade our
-living arrangement, but we upgraded our Internet Service, as well. We had
-been with At&t, but I made the decision to switch to Charter. I had heard
-third-hand horror stories about poor customer service, but the bundle for
-basic cable along with&nbsp; internet access about seven times faster for
-the same price just must be worth at least trying.
+living arrangement, but we upgraded our Internet Service, as well.
+
+We had been with At&t, but I made the decision to switch to Charter. I
+had heard third-hand horror stories about poor customer service, but the
+bundle for basic cable along with internet access about seven times
+faster for the same price just must be worth at least trying.
 
 Today, I bought a wireless router to replace the modem-router combo we
 had been using with At&t. I had seen an article about the new line of

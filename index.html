@@ -4,28 +4,20 @@ description: "Faith. Family. Technology."
 img-name: "home-bg.jpg"
 ---
   <div class="row">
-    <div class="col-md-4 col-lg-4">
+    <div class="col-md-12 col-lg-12">
+      <p>I'm really glad you're here! Check out some of my creative and/or preaching work. You can also view some of my writings, if you're so inclined. </p>
+    </div>
+    <div class="col-md-6 col-lg-6">
       <center>
-        <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+        <img class="img-circle" src="/img/thumb/bibles.jpg" />
         <h2>Preaching</h2>
-        <p>I love preaching so much that I got a degree in it! See/hear some samples.</p>
-        <p><a class="btn btn-default vt-p" href="#" role="button">Check 'em out »</a></p>
+        <p><a class="btn btn-default vt-p" href="/preaching" role="button">See Samples »</a></p>
       </center>
     </div>
-    <div class="col-md-4 col-lg-4">
+    <div class="col-md-6 col-lg-6">
       <center>
-        <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-        <h2>Creative</h2>
-        <p>I love making videos, reading and writing, and pursuing other creative outlets.</p>
-        <p><a class="btn btn-default vt-p" href="#" role="button">Check 'em out »</a></p>
-      </center>
-    </div>
-    <div class="col-md-4 col-lg-4">
-      <center>
-        <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-        <h2>Technology</h2>
-        <p>I work with technology every day, and love learning more. Check out some of my projects.</p>
-        <p><a class="btn btn-default vt-p" href="/projects" role="button">View details »</a></p>
+        <h2>Portfolio</h2>
+        <p><a class="btn btn-default vt-p" href="/portfolio" role="button">See My Work »</a></p>
       </center>
     </div>
   </div>
@@ -40,8 +32,7 @@ img-name: "home-bg.jpg"
     {% assign value = post.seq | modulo:2 %}
     {% if value == 0 %}
     <div class="col-md-7">
-      <h2 class="featurette-heading"><a href="{{ post.url }}">{{ post.title }} <br />
-        <span class="text-muted">{{ post.subtitle }}</span></a></h2>
+      <h2 class="featurette-heading"><a href="{{ post.url }}">{{ post.title }}</a></h2>
       <p class="lead">{{ post.excerpt }}</p>
     </div>
     <div class="col-md-5">
@@ -52,8 +43,7 @@ img-name: "home-bg.jpg"
       <img class="featurette-image img-responsive" src="img/thumb/{{ post.img-name }}" />
     </div>
     <div class="col-md-7">
-      <h2 class="featurette-heading"><a href="{{ post.url }}">{{ post.title }} <br />
-        <span class="text-muted">{{ post.subtitle }}</span></a></h2>
+      <h2 class="featurette-heading"><a href="{{ post.url }}">{{ post.title }}</a></h2>
       <p class="lead">{{ post.excerpt }}</p>
     </div>
     {% endif %}
@@ -62,5 +52,7 @@ img-name: "home-bg.jpg"
   {% endfor %}
 
   <hr class="featurette-divider">
+  
+  <p><a class="btn btn-default" href="/blog" role="button">Read More »</a></p>
 
   <!-- /END THE FEATURETTES -->

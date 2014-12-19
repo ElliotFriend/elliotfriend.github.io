@@ -224,6 +224,7 @@ hr.small {
   margin-bottom: 10px;
 }
 .post-preview > .post-meta {
+  clear: both;
   color: #808080;
   font-size: 18px;
   font-style: italic;

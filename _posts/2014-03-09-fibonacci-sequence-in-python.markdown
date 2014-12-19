@@ -7,6 +7,7 @@ categories: technology
 img-name: "golden-spiral.jpg"
 subtitle: Who knew it could be so easy and gratifying?
 seq: 15
+comments: true
 ---
 In case anyone ever wanted to know how to run the Fibonacci Sequence in
 Python, here's how I did it:
