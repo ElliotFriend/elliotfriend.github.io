@@ -10,7 +10,7 @@ seq: 9
 ---
 Here's a video that [@brockthoward](https://twitter.com/brockthoward)
 and I put together back in the day. It's easily one of my favorites that
-I've made!
+I've been a part of!
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/bw9d2APczx8?rel=0"
 frameborder="0" allowfullscreen></iframe>
