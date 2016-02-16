@@ -10,12 +10,12 @@ facebook_username:  ElliotFriend
 youtube_username: ElliotFriend
 
 # Github settings
-repository: ElliotFriend/elliotfriend.github.io
-gems: ['jekyll-github-metadata']
+#repository: ElliotFriend/elliotfriend.github.io
+#gems: ['jekyll-github-metadata']
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+#highlighter: pygments
 permalink: /blog/:year/:month/:day/:title
 exclude: ["node_modules"]
 exclude: [vendor]
