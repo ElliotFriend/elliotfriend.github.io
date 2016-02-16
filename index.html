@@ -3,24 +3,25 @@ layout: page
 description: "Faith. Family. Technology."
 img-name: "home-bg.jpg"
 ---
-  <div class="row">
-    <div class="col-md-12 col-lg-12">
-      <p>I'm really glad you're here! Check out some of my preaching/creative/technical work. You can also view some of my writings, if you're so inclined. </p>
-    </div>
-    <div class="col-md-6 col-lg-6">
-      <center>
-        <img class="img-circle" src="/img/thumb/bibles.jpg" />
-        <h2>Preaching</h2>
-        <p><a class="btn btn-default vt-p" href="/preaching" role="button">See Samples »</a></p>
-      </center>
-    </div>
-    <div class="col-md-6 col-lg-6">
-      <center>
-        <h2>Portfolio</h2>
-        <p><a class="btn btn-default vt-p" href="/portfolio" role="button">See My Work »</a></p>
-      </center>
+<section id="features">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-lg-6">
+        <center>
+          <img class="img-circle" src="/img/thumb/bibles.jpg" />
+          <h2>Preaching</h2>
+          <p><a class="btn btn-default vt-p" href="/preaching" role="button">See Samples »</a></p>
+        </center>
+      </div>
+      <div class="col-md-6 col-lg-6">
+        <center>
+          <h2>Portfolio</h2>
+          <p><a class="btn btn-default vt-p" href="/portfolio" role="button">See My Work »</a></p>
+        </center>
+      </div>
     </div>
   </div>
+</section>
 
 
   <!-- START THE FEATURETTES -->
@@ -47,12 +48,12 @@ img-name: "home-bg.jpg"
       <p class="lead">{{ post.excerpt }}</p>
     </div>
     {% endif %}
-    
+
   </div>
   {% endfor %}
 
   <hr class="featurette-divider">
-  
+
   <p><a class="btn btn-default" href="/blog" role="button">Read More »</a></p>
 
   <!-- /END THE FEATURETTES -->

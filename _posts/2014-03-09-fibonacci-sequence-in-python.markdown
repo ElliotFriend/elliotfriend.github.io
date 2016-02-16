@@ -20,7 +20,7 @@ import sys
 f_seq = [ 0, 1 ]
 while len(f_seq) <= int(sys.argv[1]):
     f_seq.append(f_seq[-1] + f_seq[-2])
-    
+
 print f_seq
 {% endhighlight %}
 
