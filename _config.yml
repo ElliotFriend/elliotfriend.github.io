@@ -1,17 +1,13 @@
 # Site settings
 title: Elliot John Voris
 email: elliot@voris.me
-description: "I'm Elliot. I'm your friend."
+description: "Faith. Family. Technology."
 baseurl: ""
 url: "http://elliot.voris.me"
 twitter_username: ElliotFriend
 github_username:  ElliotFriend
 facebook_username:  ElliotFriend
 youtube_username: ElliotFriend
-
-# Github settings
-#repository: ElliotFriend/elliotfriend.github.io
-#gems: ['jekyll-github-metadata']
 
 # Build settings
 markdown: kramdown

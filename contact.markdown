@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Contact"
-description: "Have questions? I have answers (maybe)."
+subtitle: "Have questions? I have answers (maybe)."
 img-name: mailboxes.jpg
 permalink: /contact/
 ---

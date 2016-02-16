@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About"
-description: "This is who I am."
+subtitle: "This is who I am."
 img-name: about-bg.jpg
 permalink: /about/
 ---

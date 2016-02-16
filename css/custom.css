@@ -1,4 +1,26 @@
 /**
+ * Custom things that have been added by Elliot
+ */
+section {
+  padding: 150px 0;
+}
+section h2.section-heading {
+  margin-top: 0px;
+}
+section h3.section-subheading {
+  margin-bottom: 45px;
+}
+section.bg-light-gray {
+  background: #ecf0f1;
+}
+footer {
+  background: #bdc3c7;
+}
+footer .text-muted {
+  color: #ecf0f1;
+}
+
+/**
  * Syntax highlighting styles
  */
 .highlight {

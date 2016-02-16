@@ -1,0 +1,48 @@
+<!-- Recent Posts -->
+<section id="recent-posts" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Fresh From The Blog</h2>
+                <h3 class="section-subheading text-muted">I like to write things down, every once in a while</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+                {% for post in site.posts limit:4 %}
+                <hr class="featurette-divider">
+
+                <div class="row featurette">
+                {% assign value = post.seq | modulo:2 %}
+                {% if value == 0 %}
+                <div class="col-md-7">
+                  <h2 class="featurette-heading"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                  <p class="lead">{{ post.excerpt }}</p>
+                </div>
+                <div class="col-md-5">
+                  <img class="featurette-image img-responsive" src="img/thumb/{{ post.img-name }}" />
+                </div>
+                {% else %}
+                <div class="col-md-5">
+                  <img class="featurette-image img-responsive" src="img/thumb/{{ post.img-name }}" />
+                </div>
+                <div class="col-md-7">
+                  <h2 class="featurette-heading"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                  <p class="lead">{{ post.excerpt }}</p>
+                </div>
+                {% endif %}
+
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 text-center">
+                <hr class="featurette-divider">
+                <p><a class="btn btn-default" href="/blog" role="button">Read More »</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- /Recent Posts -->
