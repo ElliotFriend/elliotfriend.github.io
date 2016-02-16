@@ -12,4 +12,4 @@ skateboarder, reader, writer, lifelong-learner,  and lego-enthusiast.
 Most of all, I love to have fun, and spend time with those I care about.
 
 I have an amazing wife, Brandy. Two wonderful children, Journey Sophia
-(2) and Boston Elliot (almost 1). My family is super-awesome!
+(4) and Boston Elliot (2). My family is super-awesome!
